@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+
+{% block title -%}
+  New Inquiry
+{%- endblock %}
+
+{% block content %}
+  <script type=text/javascript src="{{ url_for('static', filename='js/module_inquiries/inquiry_new.js') }}"></script>
+
+  <main>
+    <div class="container">
+
+      {% include 'module_inquiries/button_home.html' %}
+
+<form action="{{ url_for('inquiries.inquiry_new') }}" method="POST">
+      <div class="row">
+        <div class="col-md-6 padding__block">
+          <label for="email">Email</label>
+          <input name="email" type="email" size="40" minlength="1" maxlength="1024" placeholder="john.doe@example.com" required>
+        </div>
+
+        <div class="col-md-6 padding__block">
+          <p>Add desired inquiry items via product search.</p>
+        </div>
+      </div>
+      
+      <div id="list__items" class="element__invisible">
+        <div class="row">
+          <table class="table-striped table-bordered">
+            <thead>
+              <tr>
+                <th class="col-md-2">Code</th>
+                <th class="col-md-5">Title</th>
+                <th class="col-md-2">EAN</th>
+                <th class="col-md-2">Amount</th>
+                <th class="col-md-1"></th>
+              </tr>
+            </thead>
+            <tbody id="inquiry__table__body">
+            </tbody>
+          </table>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 padding__block">
+            <input class="btn btn-success" type="submit" value="Create Inquiry">
+          </div>
+        </div>
+      </div>
+</form>
+
+      <div class="row">
+        <div class="col-md-5">
+          <label for="input__code">Search by code:</label>
+          <input name="input__code" id="input__code" size="20" placeholder="8 characters">
+          <button id="button__search__code" class="btn btn-primary">Find product</button>
+        </div>
+
+        <div class="col-md-7">
+          <div>
+            <label for="input__title">Search by title:</label>
+            <input name="input__title" id="input__title" size="20" placeholder="search phrase">
+            <button id="button__search__title" class="btn btn-primary element__invisible">Find match</button>
+          </div>
+
+          <div class="dropdown show">
+            <label for="button__category__dropdown">Category</label>
+            <button id="button__category__dropdown" class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select category</button>
+            <div class="dropdown-menu">
+  {% for category in categories %}
+              <button id="{{ category.category_id }}" class="dropdown-item btn btn-secondary button__select__category">{{ category.category_name }}</button>
+  {% endfor %}
+            </div>
+          </div>
+
+          <div id="subcategory__dropdown" class="dropdown show element__invisible">
+            <label for="button__subcategory__dropdown">Subcategory</label>
+            <button id="button__subcategory__dropdown" class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select subcategory</button>
+            <div id="subcategory__dropdown__menu" class="dropdown-menu">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="table__products" class="row">
+        <table class="table-striped table-bordered">
+          <thead>
+            <tr>
+              <th class="col-md-1">Code</th>
+              <th class="col-md-3">Title</th>
+              <th class="col-md-1">EAN</th>
+              <th class="col-md-6">Description</th>
+              <th class="col-md-1"></th>
+            </tr>
+          </thead>
+          <tbody id="search__table__body">
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </main>
+{% endblock %}

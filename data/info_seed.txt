@@ -1,0 +1,133 @@
+init schema...
+done
+
+init auth seed...
+0%-10%-20%-30%-40%-50%-60%-70%-80%-90%-100%
+(1, 'angelafoster@williams-nguyen.com', 'gVNuCYqviRcKtrEWABIXLKIISrKVklHRYgvmmzNp')
+(2, 'jennifer40@lang.biz', 'ScqbYzJqWGoBMpcrEfbTQMuqwnImrIetUpRAVXlX')
+(3, 'kylecase@herman.com', 'ljIVSjwAQoiHXNEKoOQvSVHOlFzcnwTmnvqozsMH')
+(4, 'thomaskim@hill-nelson.com', 'xiMZJGwuJBWwfUKUFjjTXVVTASWijQPyFTcehiHS')
+(5, 'madison10@gmail.com', 'GZZSMopgsVjeawMLJAZGoHMxEfUSILlafZUZEZLs')
+...
+auth seed finished with 355074 items
+
+init card_provider seed...
+(1, 'Maestro')
+(2, 'Mastercard')
+(3, 'VISA 16 digit')
+(4, 'VISA 13 digit')
+(5, 'American Express')
+(6, 'Discover')
+(7, 'Diners Club / Carte Blanche')
+(8, 'JCB 15 digit')
+(9, 'JCB 16 digit')
+(10, 'Voyager')
+card_provider seed finished with 10 items
+
+init card seed...
+0%-10%-20%-30%-40%-50%-60%-70%-80%-90%-100%
+(1, 'evdqVbbkSWwYvjDMnTKDRQdKilaIsGnW', 'bpmcTtaArDpilKFiDYAEhMnzcBwFyfkE', 'sIdyFegJkardKPpIOPJfyGoKaYGbpeCS', 'AfPjxpxlUznqxvGttWIzbfKXSNiaiqPT', 237383, 7)
+(2, 'tPSiumbnQaWbCgZCoGNZHNFLgUTnCGgd', 'FBxZQBNqLDYovWGNVeoBhsDZJEWFrNVP', 'IvseWnVoXoeuPCoskZdpwArlxQtFAxHV', 'ExxtDVcAkmLYzFpBWlxqPGTpzSDuJnGf', 62107, 5)
+(3, 'YzYbCyoHOmrLJHXsRwiGKvbRmSVgpAvw', 'AWxyrDkepRsHJdggWHeCSGDylDmqJFND', 'HYWwUHDsMvBNlctLKTkSSUxhnJwyxvUr', 'whQZBTvlSSpEfdrIIVGGQMwSIHYKQyIE', 106328, 9)
+(4, 'dBUXmmTjTdJYVQuOWsMgwOAeWSkgMZwQ', 'dNnWixkaiGEugFhNUwFCnJevOKqzOabk', 'RdDrJjUxuIfzKPtmKzjhhqQzKvwdnOGn', 'QcXumzfYTAFTnzFHrjSVdOmWlHKyStGy', 57768, 4)
+(5, 'mrQZTCsGBCbzLqpLimWoBnkxaterOLrg', 'tyRYRMHBASxdjEzCCaXQdBcrkyxWgbIL', 'OWeFIEdBdPQNUwXeUGudaGoRVLqNCoJB', 'UNJsPFBdrLNJmCIvOZGsJmArvoNwzOWw', 275818, 6)
+...
+card seed finished with 355029 items
+
+init category seed...
+(1, 'Battery tools')
+(2, 'Books')
+(3, 'Cell phones')
+(4, 'Clothing')
+(5, 'CD')
+(6, 'Coffee')
+(7, 'Collections')
+(8, 'Computer')
+(9, 'Furniture')
+(10, 'Games')
+(11, 'Garden tools')
+(12, 'Jewelry')
+(13, 'Maps')
+(14, 'Measuring technology')
+(15, 'Movies')
+(16, 'Parfums')
+(17, 'Salon & spa')
+(18, 'Shoes')
+(19, 'Sports')
+(20, 'Toddler')
+category seed finished with 20 items
+
+init subcategory seed...
+(1, 'Jigsaw', 1)
+(2, 'Screwdriver', 1)
+(3, 'Drywall screwdriver', 1)
+(4, 'Planer', 1)
+(5, 'Work radio', 1)
+...
+subcategory seed finished with 400 items
+
+init product seed...
+0%-10%-20%-30%-40%-50%-60%-70%-80%-90%-100%
+(1, '94607413', '2369263882142', Decimal('1687.58'), True, 'http://www.lorempixel.com/200/200', 'http://www.lorempixel.com/500/500', 'Mollitia aliquid fugit tempore atque perferendis unde voluptate.', 'Nemo dolorum eaque rerum dolor quibusdam blanditiis ullam. Occaecati reprehenderit unde porro eligendi nulla nam. Dolor iure iusto cum praesentium. Enim officia quasi sapiente rem earum consequatur in. Aspernatur dolore nisi magnam odio. Soluta rerum veritatis neque ea est blanditiis. Sed nobis hic ipsam vitae quidem. Qui blanditiis voluptatum eius exercitationem ipsam nemo quidem eligendi. Deserunt dignissimos officia dolorum qui aut natus optio labore. Recusandae quis animi nulla beatae voluptatum fugiat expedita nesciunt. Asperiores numquam iste esse at reiciendis. Expedita alias dolorem nobis aperiam est animi. Nihil a similique nobis dolorem ab totam eveniet. Consequatur quasi iusto illum culpa at ducimus. Quae impedit aut dolores consectetur aperiam tempore. Error tempore id aliquid temporibus voluptas nam eveniet. Inventore numquam aperiam provident sed at voluptatem. Vel magni explicabo qui deleniti magnam. Illum sint modi non.', 202)
+(2, '98760411', '7886519321064', Decimal('2878.57'), False, 'http://www.lorempixel.com/200/200', 'http://www.lorempixel.com/500/500', 'Eaque consectetur illo nisi ab natus perferendis.', 'Vel doloremque quae ea. Suscipit fugit mollitia vero harum laudantium nisi. Harum debitis officiis dicta aliquid. Fugiat rerum earum facere harum dignissimos. Rem voluptas ea veritatis qui cupiditate. Ab maxime tenetur aspernatur odio et praesentium dolores quidem. Aut odit accusamus aut exercitationem. Esse earum tenetur delectus velit nostrum aliquam. Exercitationem voluptatem dolor ducimus similique. Iure molestiae dolorum dolor voluptatibus aliquid assumenda. Autem repudiandae eos recusandae culpa nulla iste maxime. Tempora doloribus velit id provident quisquam id laboriosam. Saepe ex quo commodi exercitationem. Natus distinctio inventore eos facere distinctio voluptate est. Nulla aliquid autem eveniet deleniti. In velit inventore rem laudantium ipsum recusandae facere. Sequi ex quae illo veniam sequi. Facere explicabo aliquid maxime ratione sint esse. Omnis sint ipsam debitis ut. Voluptates maxime magnam placeat nemo. Deleniti voluptates qui reiciendis quia quis vero. Omnis hic exercitationem iste. Et dicta inventore esse rerum nemo. Enim non blanditiis quasi quas aperiam labore a. Eum eveniet earum aliquam sunt similique non qui. Cumque quod reprehenderit error architecto nulla at. Iure ea voluptatem expedita. Quia distinctio esse necessitatibus beatae voluptate aperiam. Earum architecto nam expedita ullam eius. Tempore possimus quo labore quas. Corrupti laboriosam reiciendis nesciunt. Ipsum placeat odit repellat fugiat beatae. Nobis quidem provident autem perspiciatis ratione. Assumenda cumque consectetur facilis nostrum aliquid ullam. Aperiam aut vero deleniti nemo accusamus voluptas consequuntur minima. Voluptas voluptates architecto mollitia ducimus labore beatae. Numquam sed possimus odio ad tempore exercitationem libero deserunt. Earum dicta voluptatum deleniti recusandae error nostrum accusantium quasi. Qui debitis beatae quidem temporibus eum. Deserunt eum enim quis veniam assumenda in dolore. Vero laboriosam cum minus delectus ea facilis.', 220)
+(3, '46520630', '1186898915318', Decimal('4289.28'), True, 'https://dummyimage.com/200x200', 'https://dummyimage.com/500x500', 'Id nihil quia porro recusandae eius odio ratione et consectetur ratione.', 'Harum dolores rerum adipisci illum unde porro. Dignissimos praesentium magnam aliquid at voluptatibus nobis tempore. Voluptate exercitationem cumque alias dignissimos iusto quasi. Repellat esse tempora modi nemo ab. Nihil fugit sed pariatur debitis. Impedit dolores facilis alias officiis ad minima. In minima non maxime illo accusantium. Facilis qui nostrum non sequi assumenda sed rem. Sint repellat laborum asperiores aperiam. Blanditiis repellat eius magnam unde. Labore vitae officiis quo quis quidem minus odit. Animi nam dolores quo excepturi. Facilis adipisci eveniet odio reprehenderit tempore corporis. Facere animi eaque laboriosam maxime nobis sequi. Sunt hic quasi quis. Deleniti autem deserunt at nam quaerat maxime numquam. Dolorem aliquid voluptates numquam. Culpa nihil nulla vel iste. Velit sequi facere non ex vel. Ea magni ex quaerat. Minima eum ut reprehenderit facilis voluptas illum pariatur. Nisi praesentium eveniet id assumenda voluptatum quam. Unde quisquam magnam odio commodi dolorem id nostrum aliquam. Sed molestias autem possimus reprehenderit molestiae. Fugiat odit beatae necessitatibus aperiam nisi quasi recusandae. Quidem suscipit quo vitae aut. Sapiente numquam dolorum excepturi maiores voluptate inventore nam. Error repellat doloribus sit velit. Provident quidem placeat quaerat esse animi. Quam rerum ducimus itaque fuga et maxime. Quod alias dolores veniam mollitia consequuntur sapiente. Corrupti reiciendis illum soluta earum ratione tempora. Inventore suscipit quidem in tenetur vero eligendi. Earum impedit dignissimos voluptates. Blanditiis inventore asperiores aliquid sed laboriosam dolores distinctio. Repudiandae cumque dolor similique recusandae officia.', 335)
+(4, '13548537', '2487964621119', Decimal('5683.59'), True, 'https://dummyimage.com/200x200', 'https://dummyimage.com/500x500', 'Harum vero in fugiat adipisci.', 'Nostrum incidunt quia vero accusamus vel debitis. Non velit eum architecto error sit fugiat incidunt. Temporibus cumque optio aliquam aliquid. Pariatur ducimus explicabo soluta quam consectetur. Sapiente expedita asperiores rerum asperiores tenetur. Quia eligendi aperiam dignissimos. Et quis unde quis quidem. Atque repellendus quos asperiores pariatur quisquam explicabo. Alias pariatur nesciunt voluptatibus eum similique molestiae modi atque. Voluptates voluptates reiciendis aspernatur quibusdam. Accusantium vero beatae explicabo suscipit id cumque ducimus. Totam sint occaecati animi animi asperiores molestiae aut. Praesentium laudantium provident numquam eveniet ipsum. Quibusdam ratione eveniet sunt aperiam aperiam natus assumenda dolorem. Itaque earum rem omnis debitis. Accusamus saepe eligendi dignissimos tempore ipsa voluptate. Libero perspiciatis optio reiciendis accusamus. Odit incidunt iusto perspiciatis tempore esse. Tempore in culpa saepe voluptate ex veritatis. Incidunt exercitationem magni dolore quibusdam suscipit minus animi. Excepturi exercitationem nostrum eius architecto fugit. Accusantium assumenda deserunt laboriosam unde tempora repellat neque dolorum.', 13)
+(5, '78548541', '3611449162951', Decimal('6253.31'), True, 'https://placeholdit.imgix.net/~text?txtsize=55&txt=200×200&w=200&h=200', 'https://dummyimage.com/500x500', 'Nesciunt dignissimos molestiae non provident dignissimos unde itaque facere sint maiores.', 'Voluptas ipsa dolores ratione eius. Nostrum doloribus veritatis in assumenda quia esse quidem. Veniam laudantium incidunt dolor veritatis. Nesciunt aliquam assumenda error temporibus veniam consectetur. Occaecati quas natus hic numquam. Exercitationem alias rerum laboriosam nesciunt. Molestiae temporibus doloribus est numquam facilis maiores labore repellat. Consequatur eligendi nemo fugit maxime recusandae nisi. Vero cupiditate sapiente quod sed libero. Rem tempore nobis nihil voluptates. Pariatur vel esse explicabo libero ut natus. Quae officia voluptates eos est repudiandae suscipit. Magni reiciendis necessitatibus hic quod ex nemo sunt. Minus debitis praesentium architecto libero repellendus. Temporibus impedit ea aliquam. Reiciendis reiciendis quasi cumque doloribus iste dolore natus. Ratione quasi quasi hic eius pariatur. Modi in quod vitae quos recusandae vitae ratione quisquam. Repellat facere occaecati tempore voluptates. Iste minus adipisci cum possimus voluptatum repudiandae culpa. Perferendis minus magni accusamus dolore porro est. Consectetur quibusdam est reiciendis voluptas ea. Voluptatum sapiente quidem voluptatibus illo consequuntur. Vel cumque cum reiciendis perferendis reiciendis eaque quam.', 203)
+...
+product seed finished with 1812912 items
+
+init ranking seed...
+(1, 1)
+(2, 2)
+(3, 3)
+(4, 4)
+(5, 5)
+ranking seed finished with 5 items
+
+init review seed...
+0%-10%-20%-30%-40%-50%-60%-70%-80%-90%-100%
+(1, datetime.datetime(2012, 7, 7, 8, 55, 57), datetime.datetime(2016, 9, 19, 4, 7), 'Eius quisquam neque labore expedita.', 'Fugit repellat ut eveniet. Ipsum aliquid suscipit quo velit aspernatur odit. Nisi dicta placeat minus quam ullam nisi cum. Libero cumque delectus veniam consequuntur blanditiis non. Accusantium rem neque deleniti facilis. Dolor vel facere magnam itaque sit quidem. Tempore nobis accusantium voluptates animi. Eos voluptatibus esse similique ex libero iste. Ut id rem voluptate illum quam. Iure occaecati facilis ipsam porro. Unde expedita animi esse sequi dicta ea. Pariatur iusto fugit perspiciatis inventore. Tenetur quae impedit sed maxime veniam fugiat. Tempora ratione non aliquid architecto adipisci pariatur. Illo omnis mollitia voluptates eaque mollitia quas. Debitis eius illo libero quas. Quisquam vel voluptatum dolor a. Et porro enim impedit maxime corporis voluptatum id. Ad adipisci corporis rem. Molestiae ad tenetur id accusamus nulla non vel. Iure aut doloribus dignissimos rem rerum corporis rerum. Repellendus nesciunt aut provident consequatur magni. Impedit nesciunt vitae alias nostrum aut expedita assumenda.', 39075, 1, 1506534)
+(2, datetime.datetime(2015, 3, 10, 5, 55, 49), datetime.datetime(2015, 10, 11, 14, 11, 50), 'Deleniti sit sunt tempora necessitatibus fugit autem.', 'In harum hic rerum aliquid eaque. Consequuntur magnam culpa nesciunt dolores animi aliquid error. Neque animi eligendi accusamus voluptatem libero. Nulla consequuntur soluta optio facere. Blanditiis nihil earum fugiat veniam magni eveniet. Eaque aspernatur numquam aliquam dolorum incidunt expedita corporis facere. Praesentium aspernatur sed deserunt magni. Culpa minima quaerat commodi ut dolorem beatae labore. Voluptatem nisi quod sequi dolorem. Quia voluptatem quos excepturi at aliquam fuga nam. Ducimus iusto ipsa veniam provident neque quaerat sint corporis. Atque perferendis asperiores dolores adipisci. Aliquam possimus nulla necessitatibus recusandae quo tempora quibusdam. Quis quam omnis laudantium minima temporibus sint assumenda. Sequi quam debitis neque ea. Necessitatibus aliquid repudiandae labore iure eum. Quia adipisci repudiandae incidunt aliquid ad. Mollitia quia in illo neque perferendis. Incidunt impedit nostrum labore beatae voluptates expedita. Totam tenetur fugit mollitia. Cum eligendi non totam a. Omnis sint velit eius explicabo earum qui. Consectetur quas officia nulla minus quidem laborum inventore. Harum quibusdam suscipit sapiente dignissimos illo repellendus debitis. Repellat adipisci eum iste laudantium aliquam nobis. Excepturi aliquid perferendis ut mollitia ducimus delectus impedit. Expedita culpa unde assumenda rem culpa harum. Occaecati debitis voluptatem odio iste ab dolor.', 224097, 2, 1252822)
+(3, datetime.datetime(2014, 5, 21, 16, 9, 3), datetime.datetime(2015, 7, 29, 19, 30, 21), 'Dicta assumenda quaerat vero repudiandae.', 'Fuga impedit aperiam architecto impedit quisquam odit. Esse optio fugiat voluptatum ut. Temporibus neque voluptate culpa tempore atque illo magni. Quasi impedit earum earum inventore. Ab fugit similique in velit culpa. Consequatur quod at inventore. Praesentium dolor id mollitia nostrum quae eveniet occaecati officiis. Aut quia libero quos distinctio quo. Deleniti hic eos beatae. Dolorem consequatur qui eaque repudiandae numquam nemo earum. Minima incidunt consequatur voluptatem et quos. Quas provident esse incidunt sed nesciunt dolor quasi. Aspernatur placeat atque dignissimos provident rem. Aliquam accusamus fugiat temporibus porro eaque quidem. Doloribus ratione doloribus alias reprehenderit aspernatur dicta. Consectetur quae nisi rerum reprehenderit. Blanditiis ipsum eum voluptas odit dolore nostrum blanditiis necessitatibus. Sit eveniet expedita quibusdam nam. Velit quas dicta magnam ab assumenda amet fuga. Iusto nostrum quisquam qui perferendis delectus asperiores provident. A quasi corrupti atque sit. Quia saepe dignissimos quae harum ad numquam. Cupiditate sunt sapiente unde enim dolores adipisci dolorem. Amet dolores eum debitis atque harum cumque.', 110682, 1, 1468192)
+(4, datetime.datetime(2013, 8, 16, 2, 6, 34), datetime.datetime(2016, 1, 16, 5, 37, 49), 'Occaecati molestias natus a unde corrupti.', 'Voluptas quam est nostrum id doloribus culpa vitae. Facere magni ad doloribus veniam sequi. Neque eius corrupti atque quasi libero odio est. Modi ab officia earum. Delectus vero molestiae maxime saepe omnis assumenda. Quia perspiciatis aut minima molestiae alias. Dignissimos ratione facilis in ea tenetur. Autem quam necessitatibus eaque ex. Exercitationem consequatur libero nam perspiciatis ipsum earum. Iure nemo laboriosam non veritatis voluptate. Repellat iusto assumenda eos harum ipsam nostrum error sint. Aliquam quae saepe modi asperiores similique quam. Ipsum suscipit incidunt voluptatibus doloribus. Fugiat totam quisquam praesentium dolores eos ad vitae. Quibusdam placeat asperiores illo sunt saepe. Culpa veniam at magni ad esse nulla. Nesciunt officiis non sed cupiditate optio fugiat. Natus quae incidunt doloremque eaque cum vitae quia. Voluptas quibusdam sint eveniet veniam. Magnam consequatur pariatur eos dolorum consequuntur ipsa voluptas vel. Suscipit alias incidunt labore ipsam repellendus omnis. Quo quos aspernatur at quas unde amet minima. Officia aspernatur molestias praesentium sit amet occaecati maxime. Eos vitae dolore laboriosam recusandae. Optio amet saepe cupiditate mollitia excepturi at magni eligendi.', 57809, 3, 1688468)
+(5, datetime.datetime(2015, 5, 17, 7, 56, 19), datetime.datetime(2015, 6, 5, 14, 58, 1), 'Natus facere qui pariatur iusto unde facere eos.', 'Molestiae vitae ipsum iure provident occaecati non id. Porro ea ullam ad eos impedit sint. Quod illo numquam autem saepe non error nulla. Accusamus harum odit officiis accusantium. Fuga illum dignissimos fugit tempore excepturi. Exercitationem deserunt recusandae nemo pariatur maxime veniam ad. Soluta quasi aperiam eos exercitationem. Nisi quaerat nesciunt magni labore maiores. Ab ipsum hic nobis quas placeat quasi culpa. Odit blanditiis sed sapiente culpa doloribus magnam id. Ducimus porro quas magnam fuga cum quos culpa harum. Debitis voluptatem maxime eius adipisci id provident. Officia unde vero modi atque sit excepturi porro esse. Odio similique quibusdam veritatis id laudantium rem. Velit alias vel recusandae voluptatem. Nulla in assumenda magni dolorum eaque voluptate suscipit. Ipsa nobis amet in ipsa vitae similique nam.', 63669, 1, 1313638)
+...
+review seed finished with 321845 items
+
+init commentary seed...
+0%-10%-20%-30%-40%-50%-60%-70%-80%-90%-100%
+(1, datetime.datetime(2011, 7, 17, 6, 39, 16), 'Possimus doloribus blanditiis mollitia facilis illum illum praesentium doloribus tempore in consectetur eum consequatur nisi consequuntur dolores dicta at quidem nisi ipsum assumenda delectus officia culpa accusantium praesentium architecto repellendus deserunt cupiditate eos aspernatur nihil eaque perspiciatis autem molestias ipsam quis tenetur mollitia non voluptatum ex fuga repellat voluptate hic dolore optio recusandae perferendis occaecati aliquam quisquam cumque voluptate dolorum eum natus.', 317609, 186061)
+(2, datetime.datetime(2014, 4, 20, 12, 23, 53), 'Eveniet temporibus incidunt consequatur velit recusandae explicabo sit repudiandae nisi illo dignissimos quasi voluptatum dicta reprehenderit beatae assumenda expedita velit eligendi et cumque explicabo fugiat error at praesentium suscipit rerum similique sequi amet repudiandae voluptas id quidem repudiandae culpa assumenda alias molestias consequatur similique id unde deserunt aliquid voluptates non numquam et explicabo quibusdam impedit numquam inventore optio aspernatur rerum aspernatur explicabo aperiam id magnam.', 50704, 205244)
+(3, datetime.datetime(2010, 1, 19, 18, 57, 33), 'Repellendus ullam excepturi sapiente velit ullam aperiam distinctio atque similique incidunt officia nostrum voluptatibus voluptatum excepturi ut consectetur incidunt commodi ullam atque perferendis consequatur fuga dolor voluptas unde minus necessitatibus corrupti mollitia aliquid ad quasi iure ut ipsum excepturi id doloremque harum ducimus laudantium est eius sapiente quaerat inventore error odit excepturi quidem nostrum voluptates vero adipisci odit consequatur iste ut nulla dolore quae iusto ea temporibus facilis et culpa.', 126904, 147370)
+(4, datetime.datetime(2016, 5, 7, 17, 33, 22), 'Dignissimos doloribus vel quis voluptatum et et dolores a quisquam nobis cumque nemo a quos asperiores id totam earum blanditiis expedita sint sapiente dolorem animi explicabo officiis optio a odio culpa minima labore ea ullam iste assumenda neque repellat.', 180376, 77342)
+(5, datetime.datetime(2011, 1, 20, 7, 37, 21), 'Dignissimos dolorum recusandae cumque dignissimos corrupti facilis in fuga deserunt ipsam molestias magnam quod alias aut ad ullam eum id dolorem minus nihil id odit corporis facilis sint distinctio itaque excepturi eos iusto rerum modi impedit excepturi esse eos ipsum repudiandae accusantium pariatur perspiciatis quibusdam laboriosam odit explicabo et officiis ullam dolore occaecati tempora sed ipsa.', 21469, 135598)
+...
+commentary seed finished with 355188 items
+
+init inquiry seed...
+0%-10%-20%-30%-40%-50%-60%-70%-80%-90%-100%
+(1, 'maciasmackenzie@yahoo.com', datetime.datetime(2016, 10, 22, 6, 2, 25), datetime.datetime(2016, 11, 29, 21, 46, 18), None)
+(2, 'andersonryan@hotmail.com', datetime.datetime(2015, 5, 16, 8, 9, 55), datetime.datetime(2016, 1, 22, 4, 24, 3), None)
+(3, 'thomas01@hotmail.com', datetime.datetime(2010, 3, 3, 11, 2, 56), datetime.datetime(2015, 5, 5, 0, 14), None)
+(4, 'ortizcharles@gmail.com', datetime.datetime(2012, 11, 4, 22, 53, 40), datetime.datetime(2014, 5, 3, 11, 44, 6), None)
+(5, 'emily85@yahoo.com', datetime.datetime(2015, 6, 4, 6, 34, 10), datetime.datetime(2016, 8, 30, 12, 42, 9), None)
+...
+inquiry seed finished with 1887812 items
+
+init inquiry_item seed...
+0%-10%-20%-30%-40%-50%-60%-70%-80%-90%-100%
+(1, 1, Decimal('1124.80'), 859021, 1380817)
+(2, 1, Decimal('3349.71'), 1708419, 149314)
+(3, 3, Decimal('3584.87'), 17919, 1490393)
+(4, 3, Decimal('4971.51'), 538830, 491925)
+(5, 3, Decimal('4188.85'), 1283411, 459710)
+...
+inquiry_item seed finished with 5438274 items
+
+deleted 106636 empty inquiries
+
+seed done
+
+add indexes...
+done
+

@@ -1,0 +1,5 @@
+DB_USERNAME = 'enterprise'
+DB_PASSWORD = 'enterprise'
+DB_NAME = 'datadump'
+DB_HOST = 'localhost'
+DB_PORT = '5432'

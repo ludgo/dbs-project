@@ -1,0 +1,29 @@
+/*
+body {
+	overflow: auto;
+}
+
+footer {
+	position: static;
+}
+*/
+.conatiner__scroll {
+    min-height: 100%;
+}
+
+
+.padding__block {
+	padding: 24px;
+}
+
+.flash__message {
+	color: red;
+}
+
+.element__invisible {
+	visibility: hidden;
+}
+
+.input__number {
+	width: 5em;
+}

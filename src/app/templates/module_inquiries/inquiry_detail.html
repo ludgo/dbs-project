@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block title -%}
+  Inquiry {{ inquiry.inquiry_id }}
+{%- endblock %}
+
+{% block content %}
+  <main>
+    <div class="container">
+
+      {% include 'flash_message.html' %}
+
+      {% include 'module_inquiries/button_home.html' %}
+
+      {% include 'module_inquiries/info_inquiry.html' %}
+
+      <div class="row">
+        <table class="table-striped table-bordered">
+          <thead>
+            <tr>
+              <th class="col-md-2">Product code</th>
+              <th class="col-md-5">Product title</th>
+              <th class="col-md-1">Amount</th>
+              <th class="col-md-2">Price per unit</th>
+              <th class="col-md-2">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+{% for item in inquiry.items %}
+            <tr>
+              <td class="col-md-2">{{ item.product_code }}</td>
+              <td class="col-md-5">{{ item.product_title }}</td>
+              <td class="col-md-1">{{ item.item_amount }}</td>
+              <td class="col-md-2">{{ item.item_price if inquiry.time_responded }} €</td>
+              <td class="col-md-2">{{ item.item_amount * item.item_price if inquiry.time_responded }} €</td>
+            </tr>
+{% endfor %}
+            <tr>
+              <td class="col-md-2"><strong>Total</strong></td>
+              <td class="col-md-5"></td>
+              <td class="col-md-1"><strong>{{ inquiry.amount_sum if inquiry.time_responded }}</strong></td>
+              <td class="col-md-2"></td>
+              <td class="col-md-2"><strong>{{ inquiry.price_sum if inquiry.time_responded }} €</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="row">
+        <div class="col-md-2 padding__block">
+          <a href="{{ url_for('inquiries.inquiry_edit', inquiry_id = inquiry.inquiry_id) }}" class="btn btn-primary" role="button">Edit Inquiry</a>
+        </div>
+
+        {% include 'module_inquiries/button_delete.html' %}
+
+        <div class="col-md-2 padding__block">
+          <a href="{{ url_for('inquiries.inquiry_detail_json', inquiry_id = inquiry.inquiry_id) }}" class="btn btn-primary" role="button">Generate JSON</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+{% endblock %}
